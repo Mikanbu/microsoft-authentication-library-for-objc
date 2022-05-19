@@ -3313,7 +3313,8 @@
 		D6A206251FC50A4D00755A51 /* libIdentityCore.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libIdentityCore.a;
+			name = libIdentityCore.a;
+			path = lib.a;
 			remoteRef = D6A206241FC50A4D00755A51 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -4763,6 +4764,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 9.0;
 				MARKETING_VERSION = 1.1.24;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $IDCORE_PATH/src/**";
 			};
@@ -4776,6 +4778,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 9.0;
 				MARKETING_VERSION = 1.1.24;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $IDCORE_PATH/src/**";
 			};

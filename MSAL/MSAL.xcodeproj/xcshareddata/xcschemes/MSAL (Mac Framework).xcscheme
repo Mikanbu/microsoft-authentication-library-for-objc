@@ -27,6 +27,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D65A6F4F1E3FD32D00C69FBA"
+            BuildableName = "MSAL.framework"
+            BlueprintName = "MSAL (Mac Framework)"
+            ReferencedContainer = "container:MSAL.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -43,23 +52,12 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D626FF671FBA6EDF00EE4487"
-               BuildableName = "IdentityCoreTests.xctest"
+               BuildableName = ".xctest"
                BlueprintName = "IdentityCoreTests Mac"
                ReferencedContainer = "container:IdentityCore/IdentityCore/IdentityCore.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D65A6F4F1E3FD32D00C69FBA"
-            BuildableName = "MSAL.framework"
-            BlueprintName = "MSAL (Mac Framework)"
-            ReferencedContainer = "container:MSAL.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -80,8 +78,6 @@
             ReferencedContainer = "container:MSAL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
